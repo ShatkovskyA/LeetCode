@@ -30,7 +30,8 @@ Follow up: Could you minimize the total number of operations done?
 
 ПЕРЕВОД:
 
-Если задан целочисленный массив nums, переместите все 0 в его конец, сохраняя относительный порядок ненулевых элементов.
+Если задан целочисленный массив nums, переместите все 0 в его конец,
+сохраняя относительный порядок ненулевых элементов.
 Обратите внимание, что это необходимо сделать на месте, не создавая копию массива.
 
 Пример 1:
@@ -49,7 +50,6 @@ Follow up: Could you minimize the total number of operations done?
 -231 <= nums[i] <= 231 - 1
 
 Уточнение: Не могли бы вы минимизировать общее количество выполняемых операций?
-Словарь и онлайн перевод на английский, русский...
 
  */
 public class _283_Move_Zeroes_ {
@@ -72,7 +72,40 @@ public class _283_Move_Zeroes_ {
   static class Solution283 {
     public void moveZeroes(int[] nums) {
 
+      // начнем с первой позиции, инициализируем нулем,
+      // т. е. это то первое место, куда надо вставить элемент
+      int insertPosition = 0;
+
+      // далее пробегаемся циклом
+      for (int i = 0; i < nums.length; i++) {
+        // и тут вводим условия для заполнения всех элементов, которые не равны 0
+        if(nums[i] != 0) {
+          // соотв. заполняем массив ненулевыми числами
+          nums[insertPosition] = nums[i];
+          // увеличиваем итерацией счетчик вставки(позиции)
+          insertPosition++;
+        }
+      }
+      // второй цкил while - мы заполняем оставшимися нулями массив
+      // условие - если позиция вставки все еще меньше длины массива
+      // но равно 0, мы пробегаемся(итерируем позицию вставки)
+      while (insertPosition < nums.length) {
+        nums[insertPosition++] = 0;
+      }
     }
   }
-
 }
+
+// другой, быстрый вариант решения:
+//ArrayList<Integer> temp=new ArrayList<Integer>();
+//        for(int i=0;i<nums.length;i++){
+//    if(nums[i]!=0){
+//    temp.add(nums[i]);
+//    }
+//    }
+//    for(int i=0;i<temp.size();i++){
+//    nums[i]=temp.get(i);
+//    }
+//    for(int i=temp.size();i<nums.length;i++){
+//    nums[i]=0;
+//    }
