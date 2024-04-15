@@ -1,5 +1,7 @@
+package basicImplementation;
+
 /**
- * _896_Monotonic_Array_.
+ * basicImplementation._896_Monotonic_Array_.
  *
  * @author Anton Shatkovskiy
  * @created 10.04.2024 г.
@@ -83,9 +85,30 @@ public class _896_Monotonic_Array_ {
   }
 
   static class Solution896 {
+
+    // методо для проверки монотонности массива
     public boolean isMonotonic(int[] nums) {
 
-      return false;
+      // сначала создаем переменную, которая возвращает количество цифр в массивк
+      int n = nums.length;
+
+      // вводим также bool переменные для удоства и "красивости" кода
+      boolean inc = true;
+      boolean dec = true;
+
+      // далее, применяем цикл, пробегаемся по массиву, в сторону увеличения, и, также вводим необходимые условия по задаче
+     for (int i = 0; i < n - 1; i++) {
+        // проверка - не увеличивается ли массив
+        if(nums[i] > nums[i + 1]) {
+          inc = false;
+          // проверка - не уменьшается ли массив
+        } else if (nums[i] < nums[i + 1]) {
+          dec = false;
+        }
+      }
+
+      // выбераем один из них, будь то inc или dec
+      return inc || dec;
 
     }
   }

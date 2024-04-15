@@ -1,7 +1,9 @@
+package basicImplementation;
+
 import java.util.Arrays;
 
 /**
- * _1502_Can_Make_Arithmetic_Progression_From_Sequence_.
+ * basicImplementation._1502_Can_Make_Arithmetic_Progression_From_Sequence_.
  *
  * @author Anton Shatkovskiy
  * @created 10.04.2024 г.

@@ -1,5 +1,7 @@
+package basicImplementation;
+
 /**
- * Класс _1768_Merge_Strings_Alternately_ - реализовывает решение задачи № 768.
+ * Класс basicImplementation._1768_Merge_Strings_Alternately_ - реализовывает решение задачи № 768.
  *
  * @author Anton Shatkovskiy
  * @created 05.04.2024 г.

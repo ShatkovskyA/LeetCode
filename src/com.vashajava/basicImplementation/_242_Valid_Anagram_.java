@@ -1,6 +1,7 @@
+package basicImplementation;
 
 /**
- * _242_Valid_Anagram_.
+ * basicImplementation._242_Valid_Anagram_.
  *
  * @author Anton Shatkovskiy
  * @created 06.04.2024 г.

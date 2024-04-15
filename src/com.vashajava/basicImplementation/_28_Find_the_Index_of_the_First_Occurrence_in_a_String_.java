@@ -1,6 +1,7 @@
+package basicImplementation;
 
 /**
- * _28_Find_the_Index_of_the_First_Occurrence_in_a_String_.
+ * basicImplementation._28_Find_the_Index_of_the_First_Occurrence_in_a_String_.
  *
  * @author Anton Shatkovskiy
  * @created 06.04.2024 г.

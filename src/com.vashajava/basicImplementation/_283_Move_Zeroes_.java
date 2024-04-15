@@ -1,5 +1,7 @@
+package basicImplementation;
+
 /**
- * _283_Move_Zeroes_.
+ * basicImplementation._283_Move_Zeroes_.
  *
  * @author Anton Shatkovskiy
  * @created 08.04.2024 г.

@@ -1,5 +1,7 @@
+package basicImplementation;
+
 /**
- * _1822_Sign_of_the_Product_of_an_Array_.
+ * basicImplementation._1822_Sign_of_the_Product_of_an_Array_.
  *
  * @author Anton Shatkovskiy
  * @created 10.04.2024 г.

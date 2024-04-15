@@ -1,5 +1,7 @@
+package basicImplementation;
+
 /**
- * _459_Repeated_Substring_Pattern_.
+ * basicImplementation._459_Repeated_Substring_Pattern_.
  *
  * @author Anton Shatkovskiy
  * @created 08.04.2024 г.

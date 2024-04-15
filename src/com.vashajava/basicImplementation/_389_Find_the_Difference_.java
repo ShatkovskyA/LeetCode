@@ -1,6 +1,7 @@
+package basicImplementation;
 
 /**
- * _389_Find_the_Difference_.
+ * basicImplementation._389_Find_the_Difference_.
  *
  * @author Anton Shatkovskiy
  * @created 06.04.2024 г.
