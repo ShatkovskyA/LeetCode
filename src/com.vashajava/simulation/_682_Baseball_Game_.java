@@ -107,11 +107,11 @@ public class _682_Baseball_Game_ {
 
   }
 
-  class Solution682 {
-    public int calPoints(String[] operations) {
-
-      return null;
-    }
-  }
+//  class Solution682 {
+//    public int calPoints(String[] operations) {
+//
+//
+//    }
+//  }
 
 }
