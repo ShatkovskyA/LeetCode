@@ -1,5 +1,7 @@
 package simulation;
 
+import org.w3c.dom.ls.LSOutput;
+
 /**
  * _1041_Robot_Bounded_In_Circle_.
  *
@@ -69,7 +71,7 @@ Constraints:
 1 <= instructions.length <= 100
 instructions[i] is 'G', 'L' or, 'R'.
 
-ПЕРЕВОД: 1041. Робот, Замкнутый в Круг.
+ПЕРЕВОД: 1041. Робот, Ограниченный Кругом или же земкнутый круг.
 На бесконечной плоскости робот изначально стоит в точке (0, 0) и смотрит на север. Обратите внимание, что:
 
 Направление на север является положительным направлением оси y.
@@ -135,19 +137,73 @@ instructions[i] is 'G', 'L' or, 'R'.
 
 public class _1041_Robot_Bounded_In_Circle_ {
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
+      // String instructions = "GGLLGG";
 
+      String instructions = "GLRLLGLL";
 
+      Solution1041 solution1041 = new Solution1041();
+      System.out.println(solution1041.isRobotBounded(instructions));
 
-  }
+    }
 
-  class Solution1041 {
+  static  class Solution1041 {
     public boolean isRobotBounded(String instructions) {
 
-      return true;
+//      int directionIndex = 0;
+//      int[] distance = new int[4];
+//      for (int i = 0; i < instructions.length(); ++i) {
+//        char currentInstruction = instructions.charAt(i);
+//        if (currentInstruction == 'L') {
+//          directionIndex = (directionIndex + 1) % 4;
+//        }
+//        else if (currentInstruction == 'R') {
+//          directionIndex = (directionIndex + 3) % 4;
+//        }
+//        else {
+//          distance[directionIndex]++;
+//        }
+//      }
+//      return (distance[0] == distance[2] && distance[1] == distance[3]) || (directionIndex != 0);
+
+      // "Индекс направления" представляет текущее направление движения робота:
+      // 0-Вверх, 1-Влево, 2-Вниз, 3-Вправо
+      int directionIndex = 0;
+
+      // инициализация направления и расстояния - везде по нулям, т. е. инициализируем 4-мя нулями
+      // массив 'distance' хранит чистое расстояние, пройденное во всех 4 направлениях
+      int[] distance = new int[4];
+
+      // инструкция по процессу - в зависимости от букв в скрипте либо двигаемся в ту или иную сторону, массив направений увеличиввается, либо уменьшается
+      // повторяем каждую инструкцию и соответствующим образом обновляем направление или расстояние - цикл
+      for (int i = 0; i < instructions.length(); ++i) {
+        // текущий символ получаем из комбинации путем метода charAt
+        char currentInstruction = instructions.charAt(i);
+
+        // если в команде указана буква "L", робот поворачивается на 90 градусов влево
+        if(currentInstruction == 'L') {
+          directionIndex = (directionIndex + 1) % 4;
+        }
+
+        // если команда "R", она поворачивает робота на 90 градусов вправо
+        else if(currentInstruction == 'R') {
+          directionIndex = (directionIndex + 3) % 4;
+        }
+
+        // если команда "G", робот перемещается на одну единицу вперед в текущем направлении
+        else {
+          distance[directionIndex]++;
+        }
+      }
+
+      // проверяем ограниченность кругом - т. е. проверки должны показать, что робот двигается в круге
+      // робот ограничен, если:
+      // 1. Он возвращается в исходное положение (расстояние, пройденное вверх, равно расстоянию, пройденному вниз, а влево - вправо).
+      // 2. После выполнения всех инструкций он не будет обращен на север.
+
+
+      return (distance[0] == distance[2] && distance[1] == distance[3]) || (directionIndex != 0);
 
     }
   }
-
-
 }
