@@ -87,23 +87,19 @@ public class _73_Set_Matrix_Zeroes_ {
     System.out.println(" ");
   }
 
-
   static class Solution73 {
     public void setZeroes(int[][] matrix) {
-
       // определяем размеры двумерной матрицы
       // количество строк в матрице
       int rowCount = matrix.length;
       // количество столбцов в матрице
       int colCount = matrix[0].length;
-
       // флажок(булево значение)) для проверки, содержит ли первая строчка ноль
       boolean firstRowHasZero = false;
       // флажок(булево значение)) для проверки, содержит ли первый столбец ноль
       boolean firstColHasZero = false;
 
       // применяем циклы
-
       // проверка, есть ли нули в первой строчке
       for (int col = 0; col < colCount; ++col) {
         // робегаемся по строчке, если первый элемент равен 0, то труе
@@ -119,7 +115,6 @@ public class _73_Set_Matrix_Zeroes_ {
           break;
         }
       }
-
       // используем первую строку и столбец в качестве маркеров.
       // для матрицы[i][0] и матрицы[0][j] устанавливаем значение 0,
       // если матрица[i][j] равна 0
@@ -131,7 +126,6 @@ public class _73_Set_Matrix_Zeroes_ {
           }
         }
       }
-
       // повторяем итерацию по матрице,
       // используя первую строку и столбец в качестве ссылки,
       // и устанавливаем для элементов значение 0 соответственно.
@@ -142,15 +136,12 @@ public class _73_Set_Matrix_Zeroes_ {
           }
         }
       }
-
       // если необходимо, обнуляем первую строку
       if(firstRowHasZero) {
         for (int col = 0; col < colCount; ++col) {
           matrix[0][col] = 0;
         }
       }
-
-
       // если необходимо, обнуляем первый столбец
       if(firstColHasZero) {
         for (int row = 0; row < rowCount; ++row) {
