@@ -30,8 +30,7 @@ Constraints:
 
 Follow up: Could you minimize the total number of operations done?
 
-ПЕРЕВОД:
-
+ПЕРЕВОД: 283. Перемещение нулей.
 Если задан целочисленный массив nums, переместите все 0 в его конец,
 сохраняя относительный порядок ненулевых элементов.
 Обратите внимание, что это необходимо сделать на месте, не создавая копию массива.
@@ -73,7 +72,6 @@ public class _283_Move_Zeroes_ {
 
   static class Solution283 {
     public void moveZeroes(int[] nums) {
-
       // начнем с первой позиции, инициализируем нулем,
       // т. е. это то первое место, куда надо вставить элемент
       int insertPosition = 0;

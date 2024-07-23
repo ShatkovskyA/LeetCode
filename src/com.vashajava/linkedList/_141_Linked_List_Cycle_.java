@@ -131,13 +131,11 @@ public class _141_Linked_List_Cycle_ {
     ListNode next;
     // конструкторы
     ListNode() {}
-
     ListNode(int val) { this.val = val; }
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
 
  static public class Solution141 {
-
    /**
     * Определяет, есть ли цикл в связанном списке.
     *

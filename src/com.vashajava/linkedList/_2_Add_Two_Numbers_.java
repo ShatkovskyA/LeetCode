@@ -105,7 +105,6 @@ public class _2_Add_Two_Numbers_ {
    * Definition for singly-linked list.
    */
   static public class ListNode {
-
     // значение элемента
     int val;
     // ссылка на следующий узел, значение null для последнего узла

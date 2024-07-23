@@ -128,7 +128,6 @@ public class _206_Reverse_Linked_List_ {
    */
   static class Solution206 {
     public ListNode reverseList(ListNode head) {
-
       // нам понадобятся вспомогательные объекты класса ListNode, иницализируем их
      // это объект класса для нового списка, заполнитель, собственно его и должны получить
       // фиктивный узел, который поможет перевернуть список
@@ -157,5 +156,4 @@ public class _206_Reverse_Linked_List_ {
 
     }
   }
-
 }
