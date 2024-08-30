@@ -10,13 +10,13 @@ package com.vashajava.additionalinternalstructures;
 public class TreeNode {
 
   // int-овое значение, которое содержится в узле
-  int val;
+  public int val;
   // ссылка на дочерний элемент слева,
   // по простому узел слева
-  TreeNode left;
+  public TreeNode left;
   // ссылка на дочерний элемент дерева справа,
   // по простому узел справа
-  TreeNode right;
+  public TreeNode right;
 
   // тут различные виды / типы конструкторов
   // пустой, дефолтный конструктор для инициализации конечного узла

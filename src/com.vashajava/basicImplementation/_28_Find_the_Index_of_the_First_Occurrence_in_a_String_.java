@@ -29,7 +29,7 @@ Constraints:
 1 <= haystack.length, needle.length <= 104
 haystack and needle consist of only lowercase English characters.
 
-ПЕРЕВОД:
+ПЕРЕВОД: 28. Найти индекс фирмы первой значения в строке.
 
 При наличии двух строк needle и haystack верните индекс первого появления needle в haystack или -1, если needle не является частью haystack.
 
