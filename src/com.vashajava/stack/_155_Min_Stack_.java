@@ -1,5 +1,8 @@
 package com.vashajava.stack;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 /**
  * _155_Min_Stack_.
  *
@@ -85,31 +88,116 @@ public class _155_Min_Stack_ {
 
   public static void main(String[] args) {
 
+    // операции и их параметры:
+    String[] operations = {"MinStack", "push", "push", "push", "getMin", "pop", "top", "getMin"};
+    int[][] params = { {}, {-2}, {0}, {-3}, {}, {}, {}, {} };
+
+    // создаем объект результата для хранения выходных данных
+    Object[] results = new Object[operations.length];
+
+    // Переменная для MyQueue
+    // MinStack obj = null;
+//    MinStack obj = new MinStack();
+//    obj.push(val);
+//    obj.pop();
+//    int param_3 = obj.top();
+//    int param_4 = obj.getMin();
+
+    MinStack minStack = new MinStack();
+//    System.out.println(minStack.push(-2));
+//    System.out.println(minStack.push(0));
+//    System.out.println(minStack.push(-3));
+//    System.out.println(minStack.getMin()); // return -3
+//    System.out.println(minStack.pop());
+//    System.out.println(minStack.top());    // return 0
+//    System.out.println(minStack.getMin()); // return -2
+//
+//    minStack.push(val);
+//    minStack.pop();
+//    int param_3 = minStack.top();
+//    int param_4 = minStack.getMin();
+
+    // далее пробегаемся циклом для обработки всех операция + цикл switch-case
+    for (int i = 0; i < operations.length; i++) {
+      switch (operations[i]) {
+        case "MyQueue":
+//          obj = new MinStack();
+          results[i] = null;
+          break;
+        case "push":
+          int x = params[i][0];
+          minStack.push(x);
+          results[i] = null;
+          break;
+        case "getMin":
+          results[i] = minStack.getMin();
+          break;
+        case "pop":
+          minStack.pop();
+          results[i] = null;
+          break;
+        case "top":
+          results[i] = minStack.top();
+          break;
+      }
+    }
+
+    // вывод на печать результатов
+    for (Object result : results) {
+      // System.out.println(result);
+      if (result != null) {
+        System.out.print(result + " ");
+      } else {
+        System.out.print("null ");
+      }
+    }
+
   }
 
-  class MinStack {
+  static class MinStack {
 
+    // 1 ИНИЦИАЛИЗИРУЕМ ДВА ПУСТЫХ СТЕКА
+    // основной стек stk1 отслеживает все элементы в стеке - сюда все кладется
+    private Deque<Integer> stk1 = new ArrayDeque<>();
+    // вспомогательный стек minValuesStack для минимальных значений отслеживает минимальные значения в каждом состоянии стека
+    private Deque<Integer> minValuesStack = new ArrayDeque<>();
+
+    // традиционно - конструктор для инициализации minValuesStack максимальным значением, которое может содержать целое число,
+    // с приминением метода push()
     public MinStack() {
-
+     minValuesStack.push(Integer.MAX_VALUE);
     }
 
+    // метод, который позволяет поместить элемент в стек и также обновляет минимальное значение
     public void push(int val) {
-
+      // помещаем значение в стек
+      stk1.push(val);
+      // перемещаем меньшее значение между текущим значением и текущим минимумом в minValuesStack
+      // для получения Math.min() применяем "заводской" стандартный библиотечный метод +
+      // peek() используется для возврата копии первого (головного) элемента объекта, не вызывает исключений
+      minValuesStack.push(Math.min(val, minValuesStack.peek()));
     }
 
-    public void pop() {
-
+    // метод, который позволяет удалить верхнеий элемент из стека и также обновляет минимальное значение
+        public void pop() {
+          // тут - удаляем верхний элемент стека
+          stk1.pop();
+          // и тут также удаляем верхний элемент minValuesStack, который соответствует минимуму в этом состоянии
+          minValuesStack.pop();
     }
 
+    // метод, который позволяет извлечь верхний элемент стека без его удаления
     public int top() {
-      return 0;
-
+      // посмотрим в верхний элемент стека, опять же,
+      // используем peek() для возврата копии первого (головного) элемента объекта, не вызывает исключений
+      return stk1.peek();
     }
 
+    // метод, который позволяет получить текущее минимальное значения в стеке
     public int getMin() {
-
-      return 0;
-
+      // смотрим верхний элемент minValuesStack, который является текущим минимумом. и снова,
+      // используем peek() для возврата копии первого (головного) элемента объекта, не вызывает исключений
+      return minValuesStack.peek();
     }
   }
 
@@ -124,5 +212,6 @@ public class _155_Min_Stack_ {
 
 }
 /*
-
+В целом, все операции MinStack класса выполняются за постоянное время,
+поэтому у нас есть O(1) временные сложности для методов push, pop, top и getMin.
  */
