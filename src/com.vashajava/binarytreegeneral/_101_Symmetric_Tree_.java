@@ -126,7 +126,7 @@ public class _101_Symmetric_Tree_ {
      }
      // следующее условие - если только один из узлов равен null или их значения различаются,
      // то дерево не может быть симметричным
-     if(root == null || root1 ==null || root1.val != root.val) {
+     if(root == null || root1 == null || root1.val != root.val) {
        return false;
      }
      // и продолжаем сравнивать левое поддерево узла 1 с правым поддеревом узла 2
