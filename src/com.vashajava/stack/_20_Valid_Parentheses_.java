@@ -74,11 +74,14 @@ s consists of parentheses only '()[]{}'.
 
   public static void main(String[] args) {
 
-    String s = "()";
+     String s = "()";
+    String s1 = "()[]{}";
 
     Solution20 solution20 = new Solution20();
     boolean isValid = solution20.isValid(s);
+    boolean isValid1 = solution20.isValid(s1);
     System.out.println(isValid);
+    System.out.println(isValid1);
    }
 
   static class Solution20 {
