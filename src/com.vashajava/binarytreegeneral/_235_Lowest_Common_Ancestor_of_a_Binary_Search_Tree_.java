@@ -1,4 +1,4 @@
-package binarytreegeneral;
+package com.vashajava.binarytreegeneral;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * _235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree_.
+ * Класс _235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree_ - наименьший общий предок для дерева бинарного поиска.
  *
  * @author Anton Shatkovskiy
  * @created 17.06.2024 г.
@@ -71,7 +71,6 @@ p and q will exist in the BST.
 Все узлы.val уникальны.
 p != q
 p и q будут существовать в ЛУЧШЕМ случае.
-
  */
 public class _235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree_ {
 

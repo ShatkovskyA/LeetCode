@@ -1,10 +1,10 @@
-package stack;
+package com.vashajava.stack;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * _232_Implement_Queue_using_Stacks_.
+ * Класс _232_Implement_Queue_using_Stacks_ - имплементация очереди использования стеков.
  *
  * @author Anton Shatkovskiy
  * @created 20.06.2024 г.
@@ -93,8 +93,6 @@ myQueue.empty(); // возвращает false
 
 Уточнение: Можете ли вы реализовать очередь таким образом, чтобы каждая операция была сокращена на (1) временную сложность?
 Другими словами, выполнение n операций займет в целом O(n) времени, даже если одна из этих операций может занять больше времени.
-
-
  */
 public class _232_Implement_Queue_using_Stacks_ {
 
@@ -144,7 +142,6 @@ public class _232_Implement_Queue_using_Stacks_ {
       }
     }
 
-
 //    MyQueue obj = new MyQueue();
 //    System.out.println(obj.push(1)); // ожидаемый результат: null
 //    System.out.println(obj.push(2)); // ожидаемый результат: null
@@ -157,7 +154,6 @@ public class _232_Implement_Queue_using_Stacks_ {
 //    int param_2 = obj.pop();
 //    int param_3 = obj.peek();
 //    boolean param_4 = obj.empty();
-
   }
 
   static class MyQueue {
@@ -190,7 +186,6 @@ public class _232_Implement_Queue_using_Stacks_ {
       return stkOutput.pop();
 
     }
-
     // тут операция получения элемента front.
     // Аналогично pop, проверяем, что stkOutput содержит элементы, переместив
     // их из stkInput, если необходимо, и затем возвращаем верхний элемент.
@@ -199,7 +194,6 @@ public class _232_Implement_Queue_using_Stacks_ {
       move();
       return stkOutput.peek();
     }
-
     // тут метод проверки на пустоту - возвращает true, если очередь пуста, то есть когда оба стека пусты
     public boolean empty() {
       return stkInput.isEmpty() && stkOutput.isEmpty();
@@ -230,7 +224,6 @@ public class _232_Implement_Queue_using_Stacks_ {
  * int param_3 = obj.peek(); - // Извлекает, но не удаляет начальный элемент очереди
  * boolean param_4 = obj.empty(); - // Проверяет, пуста ли очередь
  */
-
 }
 
 /*

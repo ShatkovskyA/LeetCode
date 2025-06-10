@@ -60,9 +60,7 @@ Constraints:
 Выход: 1
 
 Ограничения:
-
 1 <= плохо <= n <= 231 - 1
-
  */
 public class _278_First_Bad_Version_ {
 
@@ -102,7 +100,6 @@ public class _278_First_Bad_Version_ {
 
 
   static public class Solution278 extends VersionControl {
-
 
     public Solution278(int badVersion) {
       super(badVersion);

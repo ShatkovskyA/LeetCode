@@ -1,7 +1,7 @@
-package array;
+package com.vashajava.array;
 
 /**
- * _169_Majority_Element_.
+ * Класс _169_Majority_Element_ - мажоритарный элемент.
  *
  * @author Anton Shatkovskiy
  * @created 28.06.2024 г.

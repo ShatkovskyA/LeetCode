@@ -103,7 +103,6 @@ public class _242_Valid_Anagram_ {
       }
       // первая строка не отработала, значит анограмма, значит true
       return true;
-
     }
   }
 }

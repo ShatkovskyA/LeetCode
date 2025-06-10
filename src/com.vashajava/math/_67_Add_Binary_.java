@@ -1,7 +1,7 @@
-package math;
+package com.vashajava.math;
 
 /**
- * _67_Add_Binary_.
+ * Класс _67_Add_Binary_ - двоичный файл.
  *
  * @author Anton Shatkovskiy
  * @created 28.05.2024 г.
@@ -43,7 +43,6 @@ Each string does not contain leading zeros except for the zero itself.
 a и b состоят только из символов '0' или '1'.
 Каждая строка не содержит начальных нулей, за исключением самого нуля.
  */
-
 
 public class _67_Add_Binary_ {
 

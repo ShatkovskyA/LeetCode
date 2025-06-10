@@ -1,7 +1,7 @@
-package hashtable_sttring;
+package com.vashajava.hashtablestring;
 
 /**
- * _409_Longest_Palindrome_.
+ * Класс _409_Longest_Palindrome_ - длинный палиандром.
  *
  * @author Anton Shatkovskiy
  * @created 27.06.2024 г.
@@ -50,7 +50,6 @@ s consists of lowercase and/or uppercase English letters only.
 
 1 <= сек.длина <= 2000
 сек. состоит только из строчных и/или прописных английских букв.
-
  */
 public class _409_Longest_Palindrome_ {
 
