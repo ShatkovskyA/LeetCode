@@ -1,10 +1,10 @@
-package stack;
+package com.vashajava.stack;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * _20_Valid_Parentheses_.
+ * Класс _20_Valid_Parentheses_ - валидация .
  *
  * @author Anton Shatkovskiy
  * @created 05.06.2024 г.

@@ -1,4 +1,4 @@
-package binarytreegeneral;
+package com.vashajava.binarytreegeneral;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * _543_Diameter_of_Binary_Tree_.
+ * Класс _543_Diameter_of_Binary_Tree_ - диаметр бинарного дерева.
  *
  * @author Anton Shatkovskiy
  * @created 28.06.2024 г.

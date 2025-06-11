@@ -3,7 +3,7 @@ package com.vashajava.dynamicprogramming;
 import java.util.Arrays;
 
 /**
- * _338_Counting_Bits_.
+ * Класс _338_Counting_Bits_ - подсчет бит.
  *
  * @author Anton Shatkovskiy
  * @created 04.07.2024 г.

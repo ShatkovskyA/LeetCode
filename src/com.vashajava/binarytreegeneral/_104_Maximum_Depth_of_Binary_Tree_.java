@@ -1,7 +1,7 @@
-package binarytreegeneral;
+package com.vashajava.binarytreegeneral;
 
 /**
- * _104_Maximum_Depth_of_Binary_Tree_.
+ * Класс _104_Maximum_Depth_of_Binary_Tree_ - максимальная глубина бинарного дерева.
  *
  * @author Anton Shatkovskiy
  * @created 03.07.2024 г.

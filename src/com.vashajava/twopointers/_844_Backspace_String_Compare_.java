@@ -1,7 +1,7 @@
-package twopointers;
+package com.vashajava.twopointers;
 
 /**
- * _844_Backspace_String_Compare_.
+ * Класс _844_Backspace_String_Compare_ - сравнение строк Backspace.
  *
  * @author Anton Shatkovskiy
  * @created 04.07.2024 г.

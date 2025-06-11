@@ -1,7 +1,7 @@
-package linkedList;
+package com.vashajava.linkedList;
 
 /**
- * _876_Middle_of_the_Linked_List_.
+ * Класс _876_Middle_of_the_Linked_List_ - середина LinkedList.
  *
  * @author Anton Shatkovskiy
  * @created 28.06.2024 г.

@@ -1,7 +1,7 @@
 package com.vashajava.bitmanipulation;
 
 /**
- * _191_Number_of_1_Bits_.
+ * Класс _191_Number_of_1_Bits_ - число их 1-го бита.
  *
  * @author Anton Shatkovskiy
  * @created 10.07.2024 г.

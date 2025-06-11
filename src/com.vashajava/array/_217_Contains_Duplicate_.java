@@ -1,10 +1,10 @@
-package array;
+package com.vashajava.array;
 
 import java.util.HashSet;
 import java.util.Set;
 
 /**
- * _217_Contains_Duplicate_.
+ * Класс _217_Contains_Duplicate_ - содержит дубликаты.
  *
  * @author Anton Shatkovskiy
  * @created 03.07.2024 г.
