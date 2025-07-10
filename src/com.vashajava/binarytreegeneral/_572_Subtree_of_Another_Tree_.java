@@ -4,7 +4,7 @@ import com.vashajava.additionalinternalstructures.TreeNode;
 import java.sql.SQLOutput;
 
 /**
- * _572_Subtree_of_Another_Tree_.
+ * Класс _572_Subtree_of_Another_Tree_ - поддерево из дерева другого дерева.
  *
  * @author Anton Shatkovskiy
  * @created 24.07.2024 г.

@@ -7,7 +7,7 @@ import java.util.Deque;
 import java.util.List;
 
 /**
- * _199_Binary_Tree_Right_Side_View_.
+ * Класс _199_Binary_Tree_Right_Side_View_ - вид двоичного дерева справа.
  *
  * @author Anton Shatkovskiy
  * @created 07.11.2024 г.
@@ -133,7 +133,6 @@ public class _199_Binary_Tree_Right_Side_View_ {
       return rightResult;
     }
   }
-
 }
 /*
 Функция rightSideView выполняет обход бинарного дерева в порядке уровней с использованием очереди.

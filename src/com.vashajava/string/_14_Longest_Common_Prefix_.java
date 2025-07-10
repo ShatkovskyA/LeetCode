@@ -1,7 +1,7 @@
 package com.vashajava.string;
 
 /**
- * _14_Longest_Common_Prefix_.
+ * Класс _14_Longest_Common_Prefix_ - самый длинный общий префикс.
  *
  * @author Anton Shatkovskiy
  * @created 12.07.2024 г.

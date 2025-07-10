@@ -1,7 +1,7 @@
 package com.vashajava.bitmanipulation;
 
 /**
- * _268_Missing_Number_.
+ * Класс _268_Missing_Number_ - пропущенный номер.
  *
  * @author Anton Shatkovskiy
  * @created 17.07.2024 г.

@@ -3,7 +3,7 @@ package com.vashajava.dynamicprogramming;
 import java.util.Arrays;
 
 /**
- * _322_Coin_Change_.
+ * Класс _322_Coin_Change_ - разменять монету.
  *
  * @author Anton Shatkovskiy
  * @created 12.09.2024 г.

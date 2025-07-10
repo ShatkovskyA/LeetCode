@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * _3_Longest_Substring_Without_Repeating_Characters_.
+ * Класс _3_Longest_Substring_Without_Repeating_Characters_ - самая длинная подстрока без повторяющихся символов.
  *
  * @author Anton Shatkovskiy
  * @created 28.08.2024 г.

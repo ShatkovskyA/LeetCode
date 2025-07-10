@@ -4,7 +4,7 @@ package com.vashajava.binarytreegeneral;
 import com.vashajava.additionalinternalstructures.TreeNode;
 
 /**
- * _236_Lowest_Common_Ancestor_of_a_Binary_Tree_.
+ * Класс _236_Lowest_Common_Ancestor_of_a_Binary_Tree_ - наименьший общий предок бинарного дерева.
  *
  * @author Anton Shatkovskiy
  * @created 08.10.2024 г.

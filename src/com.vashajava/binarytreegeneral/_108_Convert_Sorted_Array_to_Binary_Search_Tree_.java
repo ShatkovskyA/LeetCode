@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * _108_Convert_Sorted_Array_to_Binary_Search_Tree_.
+ * Класс _108_Convert_Sorted_Array_to_Binary_Search_Tree_ - преобразование отсортированного массива в двоичное дерево поиска.
  *
  * @author Anton Shatkovskiy
  * @created 22.07.2024 г.
@@ -169,6 +169,7 @@ public class _108_Convert_Sorted_Array_to_Binary_Search_Tree_ {
     }
   }
 }
+
 /*
 Временная сложность данного кода равна O(n), где n– количество элементов во входном списке nums.
 Это связано с тем, что каждый элемент массива посещается ровно один раз

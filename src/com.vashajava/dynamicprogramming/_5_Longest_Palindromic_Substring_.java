@@ -3,7 +3,7 @@ package com.vashajava.dynamicprogramming;
 import java.util.Arrays;
 
 /**
- * _5_Longest_Palindromic_Substring_.
+ * Класс _5_Longest_Palindromic_Substring_ - самая длинная палиндромная подстрока.
  *
  * @author Anton Shatkovskiy
  * @created 14.11.2024 г.

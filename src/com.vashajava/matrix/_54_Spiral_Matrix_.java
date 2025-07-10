@@ -1,10 +1,10 @@
-package matrix;
+package com.vashajava.matrix;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * _54_Spiral_Matrix_.
+ * Класс _54_Spiral_Matrix_ - спиральная матрица.
  *
  * @author Anton Shatkovskiy
  * @created 26.04.2024 г.
@@ -31,7 +31,7 @@ n == matrix[i].length
 1 <= m, n <= 10
 -100 <= matrix[i][j] <= 100
 
-ПЕРЕВОД: 54.Спиральная матрица
+ПЕРЕВОД: 54.Спиральная матрица.
 Учитывая матрицу m x n, верните все элементы матрицы в спиральном порядке.
 
 Пример 1:

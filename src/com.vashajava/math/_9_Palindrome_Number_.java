@@ -1,7 +1,7 @@
 package com.vashajava.math;
 
 /**
- * _9_Palindrome_Number_.
+ * Класс _9_Palindrome_Number_ - номер палиандрома.
  *
  * @author Anton Shatkovskiy
  * @created 22.07.2024 г.
@@ -56,7 +56,6 @@ Follow up: Could you solve it without converting the integer to a string?
 -231 <= x <= 231 - 1
 
 Уточнение: Не могли бы вы решить это без преобразования целого числа в строку?
-
  */
 public class _9_Palindrome_Number_ {
 

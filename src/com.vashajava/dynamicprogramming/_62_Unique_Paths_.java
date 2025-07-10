@@ -3,7 +3,7 @@ package com.vashajava.dynamicprogramming;
 import java.util.Arrays;
 
 /**
- * _62_Unique_Paths_.
+ * Класс _62_Unique_Paths_ - уникальные пути.
  *
  * @author Anton Shatkovskiy
  * @created 27.11.2024 г.

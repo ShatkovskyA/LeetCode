@@ -3,7 +3,7 @@ package com.vashajava.binarytreegeneral;
 import com.vashajava.additionalinternalstructures.TreeNode;
 
 /**
- * _98_Validate_Binary_Search_Tree_.
+ * Класс _98_Validate_Binary_Search_Tree_ - проверка бинарного поиска дерева.
  *
  * @author Anton Shatkovskiy
  * @created 24.09.2024 г.

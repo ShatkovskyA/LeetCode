@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * _78_Subsets_.
+ * Класс _78_Subsets_ - подмножества.
  *
  * @author Anton Shatkovskiy
  * @created 07.11.2024 г.

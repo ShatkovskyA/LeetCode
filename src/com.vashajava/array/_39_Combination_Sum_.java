@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * _39_Combination_Sum_.
+ * Класс _39_Combination_Sum_ - cумма комбинаций.
  *
  * @author Anton Shatkovskiy
  * @created 01.10.2024 г.

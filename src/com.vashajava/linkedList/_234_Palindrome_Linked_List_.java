@@ -1,7 +1,7 @@
 package com.vashajava.linkedList;
 
 /**
- * _234_Palindrome_Linked_List_.
+ * Класс _234_Palindrome_Linked_List_ - связанный список палиндромов.
  *
  * @author Anton Shatkovskiy
  * @created 16.07.2024 г.

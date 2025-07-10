@@ -1,7 +1,7 @@
 package com.vashajava.trie;
 
 /**
- * _208_Implement_Trie_Prefix_Tree_.
+ * Класс _208_Implement_Trie_Prefix_Tree_ - реализация дерева (Префиксное дерево).
  *
  * @author Anton Shatkovskiy
  * @created 11.09.2024 г.

@@ -3,7 +3,7 @@ package com.vashajava.matrix;
 import jdk.swing.interop.SwingInterOpUtils;
 
 /**
- * _200_Number_of_slands_.
+ * Класс _200_Number_of_slands_ количество островов.
  *
  * @author Anton Shatkovskiy
  * @created 25.09.2024 г.

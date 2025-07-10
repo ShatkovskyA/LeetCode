@@ -3,7 +3,7 @@ package com.vashajava.array;
 import java.util.Arrays;
 
 /**
- * _238_Product_of_Array_Except_Self_.
+ * Класс _238_Product_of_Array_Except_Self_ - произведение массива, за исключением Self.
  *
  * @author Anton Shatkovskiy
  * @created 16.09.2024 г.

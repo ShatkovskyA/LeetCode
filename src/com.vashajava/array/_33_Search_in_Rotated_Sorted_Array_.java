@@ -1,7 +1,7 @@
 package com.vashajava.array;
 
 /**
- * _33_Search_in_Rotated_Sorted_Array_.
+ * Класс _33_Search_in_Rotated_Sorted_Array_ - поиск в повернутом и отсортированном массиве.
  *
  * @author Anton Shatkovskiy
  * @created 27.09.2024 г.

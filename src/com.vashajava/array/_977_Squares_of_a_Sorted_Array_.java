@@ -1,7 +1,7 @@
 package com.vashajava.array;
 
 /**
- * _977_Squares_of_a_Sorted_Array_.
+ * Класс _977_Squares_of_a_Sorted_Array_ - квадраты отсортированного массива.
  *
  * @author Anton Shatkovskiy
  * @created 31.07.2024 г.

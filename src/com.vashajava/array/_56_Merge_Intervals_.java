@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * _56_Merge_Intervals_.
+ * Класс _56_Merge_Intervals_ - интервалы слияния.
  *
  * @author Anton Shatkovskiy
  * @created 04.10.2024 г.

@@ -7,7 +7,7 @@ import java.util.Deque;
 import java.util.List;
 
 /**
- * _102_Binary_Tree_Level_Order_Traversal_.
+ * Класс _102_Binary_Tree_Level_Order_Traversal_ - обход порядка на уровне бинарного дерева.
  *
  * @author Anton Shatkovskiy
  * @created 04.09.2024 г.

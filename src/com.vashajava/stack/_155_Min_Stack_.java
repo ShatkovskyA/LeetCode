@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * _155_Min_Stack_.
+ * Класс _155_Min_Stack_ - минимальный стек. (реализация стека).
  *
  * @author Anton Shatkovskiy
  * @created 16.09.2024 г.

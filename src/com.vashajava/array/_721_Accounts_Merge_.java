@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 /**
- * _721_Accounts_Merge_.
+ * Класс _721_Accounts_Merge_ - слияние учетных записей.
  *
  * @author Anton Shatkovskiy
  * @created 10.10.2024 г.

@@ -1,7 +1,7 @@
 package com.vashajava.binarytreegeneral;
 
 /**
- * _101_Symmetric_Tree_.
+ * Класс _101_Symmetric_Tree_ - cимметричное дерево.
  *
  * @author Anton Shatkovskiy
  * @created 16.07.2024 г.

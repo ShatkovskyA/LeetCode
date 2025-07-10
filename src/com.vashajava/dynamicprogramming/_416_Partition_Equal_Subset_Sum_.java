@@ -1,7 +1,7 @@
 package com.vashajava.dynamicprogramming;
 
 /**
- * _416_Partition_Equal_Subset_Sum_.
+ * Класс _416_Partition_Equal_Subset_Sum_ - разделите равную сумму подмножества.
  *
  * @author Anton Shatkovskiy
  * @created 02.11.2024 г.

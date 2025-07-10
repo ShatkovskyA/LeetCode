@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Queue;
 
 /**
- * _105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_.
+ * Класс _105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal_ - построение бинарного дерева на основе предварительного заказа и обхода по порядку.
  *
  * @author Anton Shatkovskiy
  * @created 04.12.2024 г.

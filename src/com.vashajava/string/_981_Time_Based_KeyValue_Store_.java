@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * _981_Time_Based_KeyValue_Store_.
+ * Класс _981_Time_Based_KeyValue_Store_ - хранилище ключей-значений на основе времени.
  *
  * @author Anton Shatkovskiy
  * @created 09.10.2024 г.

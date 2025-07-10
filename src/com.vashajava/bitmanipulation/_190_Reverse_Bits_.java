@@ -1,7 +1,7 @@
 package com.vashajava.bitmanipulation;
 
 /**
- * _190_Reverse_Bits_.
+ * Класс _190_Reverse_Bits_ - реверс битов. (Обратные биты).
  *
  * @author Anton Shatkovskiy
  * @created 24.07.2024 г.

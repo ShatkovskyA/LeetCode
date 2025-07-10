@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * _139_Word_Break_.
+ * Класс _139_Word_Break_ - разрыв слов.
  *
  * @author Anton Shatkovskiy
  * @created 30.10.2024 г.

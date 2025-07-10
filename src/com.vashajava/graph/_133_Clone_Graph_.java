@@ -11,7 +11,7 @@ import java.util.Queue;
 import java.util.Set;
 
 /**
- * _133_Clone_Graph_.
+ * Класс _133_Clone_Graph_ - клонирование графа.
  *
  * @author Anton Shatkovskiy
  * @created 29.08.2024 г.

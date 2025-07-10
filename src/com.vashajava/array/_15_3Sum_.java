@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * _15_3Sum_.
+ * Класс _15_3Sum_ - 3 Суммы.
  *
  * @author Anton Shatkovskiy
  * @created 28.08.2024 г.

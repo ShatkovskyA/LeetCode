@@ -1,7 +1,7 @@
 package com.vashajava.string;
 
 /**
- * _8_String_to_Integer_atoi_.
+ * Класс _8_String_to_Integer_atoi_ - преобразование строки в целое число (atoi).
  *
  * @author Anton Shatkovskiy
  * @created 05.11.2024 г.

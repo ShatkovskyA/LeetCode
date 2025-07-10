@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Stack;
 
 /**
- * _150_Evaluate_Reverse_Polish_Notation_.
+ * Класс _150_Evaluate_Reverse_Polish_Notation_ - вычислить обратную польскую нотацию.
  *
  * @author Anton Shatkovskiy
  * @created 06.09.2024 г.

@@ -1,15 +1,13 @@
-package basicImplementation;
+package com.vashajava.basicImplementation;
 
 /**
- * basicImplementation._283_Move_Zeroes_.
+ * Класс _283_Move_Zeroes_ - перемещение нулей.
  *
  * @author Anton Shatkovskiy
  * @created 08.04.2024 г.
  */
 
-
 /*
-
 Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 Note that you must do this in-place without making a copy of the array.
 
@@ -62,7 +60,6 @@ public class _283_Move_Zeroes_ {
 
     Solution283 solution283 = new Solution283();
     solution283.moveZeroes(nums);
-
 
     // TODO: проработать вывод
     for (int i = 0; i < nums.length; i++) {

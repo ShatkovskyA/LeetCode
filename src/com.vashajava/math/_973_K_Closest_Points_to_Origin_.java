@@ -3,7 +3,7 @@ package com.vashajava.math;
 import java.util.Arrays;
 
 /**
- * _973_K_Closest_Points_to_Origin_.
+ * Класс _973_K_Closest_Points_to_Origin_ - K ближайших точек к началу координат.
  *
  * @author Anton Shatkovskiy
  * @created 23.08.2024 г.

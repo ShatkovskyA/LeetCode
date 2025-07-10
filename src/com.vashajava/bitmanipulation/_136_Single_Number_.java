@@ -1,7 +1,7 @@
 package com.vashajava.bitmanipulation;
 
 /**
- * _136_Single_Number_.
+ * Класс _136_Single_Number_ одиночный номер.
  *
  * @author Anton Shatkovskiy
  * @created 15.07.2024 г.

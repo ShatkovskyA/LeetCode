@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * _46_Permutations_.
+ * Класс _46_Permutations_ - перестановки.
  *
  * @author Anton Shatkovskiy
  * @created 02.10.2024 г.

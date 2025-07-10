@@ -1,13 +1,11 @@
 package com.vashajava.matrix;
 
-import java.util.AbstractQueue;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
-import java.util.Queue;
 
 /**
- * _542_01_Matrix_.
+ * Класс _542_01_Matrix_ - 01 Матрица.
  *
  * @author Anton Shatkovskiy
  * @created 22.08.2024 г.

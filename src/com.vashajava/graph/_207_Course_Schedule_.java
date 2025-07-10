@@ -6,7 +6,7 @@ import java.util.Deque;
 import java.util.List;
 
 /**
- * _207_Course_Schedule_.
+ * Класс _207_Course_Schedule_ - расписание занятий.
  *
  * @author Anton Shatkovskiy
  * @created 10.09.2024 г.
@@ -70,7 +70,7 @@ All the pairs prerequisites[i] are unique.
 Все
  */
 
-  // используем топографическую сортировку на основе алгоритма Кана,
+// используем топографическую сортировку на основе алгоритма Кана,
 // который представляет собой стратегию сортировки узлов в ориентированном графе
 public class _207_Course_Schedule_ {
 
